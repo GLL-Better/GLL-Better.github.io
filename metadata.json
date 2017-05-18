@@ -1,21 +1,21 @@
 {
-  "dataset-site-url": "https://greenwichleisurelimited-oa.github.io/",
+  "dataset-site-url": "https://gll-better.github.io/",
   "title": "Better activities",
   "description": "Better activities for online booking",
   "publisher-name": "GLL",
   "publisher-url": "https://www.better.org.uk",
   "keyword-1": "Activities",
   "keyword-2": "Fitness Classes",
-  "data-url": "http://api.britishcycling.com/openactive/rpde",
-  "created": "2014-07-20",
-  "documentation-url": "https://github.com/britishcycling-oa/opendata",
+  "data-url": "https://www.better.org.uk/odi/sessions.json",
+  "created": "2014-06-20",
+  "documentation-url": "https://github.com/gll-better/opendata",
   "rpde-version": "0.2.3",
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
-  "attribution-text": "Better activities",
-  "attribution-url": "https://greenwichleisurelimited-oa.github.io/",
+  "attribution-text": "Better Leisure",
+  "attribution-url": "https://gll-better.github.io/",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9e6648557f84731796a4ac873\",\"lid\":\"2167da53bb\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
-  "publish": false
+  "publish": true
 }
