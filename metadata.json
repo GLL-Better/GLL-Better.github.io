@@ -1,5 +1,5 @@
 {
-  "dataset-site-url": "https://gll-better.github.io/",
+  "dataset-site-url": "http://data.better.org.uk/",
   "title": "Better activities",
   "description": "Better activities for online booking",
   "publisher-name": "GLL",
@@ -13,7 +13,7 @@
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "Better",
-  "attribution-url": "https://gll-better.github.io/",
+  "attribution-url": "http://data.better.org.uk/",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us15.list-manage.com\",\"uuid\":\"912e0d415acd0c16df797ccb4\",\"lid\":\"8ae9a397cd\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
