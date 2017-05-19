@@ -12,9 +12,9 @@
   "rpde-version": "0.2.3",
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
-  "attribution-text": "Better Leisure",
+  "attribution-text": "Better",
   "attribution-url": "https://gll-better.github.io/",
-  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9e6648557f84731796a4ac873\",\"lid\":\"2167da53bb\"}) })",
+  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us15.list-manage.com\",\"uuid\":\"912e0d415acd0c16df797ccb4\",\"lid\":\"8ae9a397cd\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
   "publish": true
