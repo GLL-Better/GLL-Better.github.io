@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "Better activities",
-      "id": "http://data.better.org.uk/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "http://data.better.org.uk/",
       "url": "http://data.better.org.uk/",
-      "description" : "Better activities for online booking; published using OpenActive RPDE v0.2.3.",
+      "name": "Better activities",
+      "description": "Better activities for online booking; published using OpenActive RPDE v0.2.3.",
       "keywords":[
-         "Activities",
-         "Fitness Classes",
-         "OpenActive"
+          "Activities",
+          "Fitness Classes",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=0.2.3",
-        "contentUrl" : "https://www.better.org.uk/odi/sessions.json"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "https://www.better.org.uk/odi/sessions.json"
+        }
+      ],
+      "discussionUrl": "https://github.com/gll-better/opendata/issues",
+      "documentation": "https://github.com/gll-better/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "GLL",
-         "url": "https://www.better.org.uk",
-         "logo": "http://data.better.org.uk/images/logo.png"
+        "@type": "Organization",
+        "name": "GLL",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://data.better.org.uk/images/logo.png"
+        },
+        "url": "https://www.better.org.uk"
       },
-      "datePublished" : "2014-06-20T00:00:00.000Z"
+      "datePublished": "2014-06-20T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "http://data.better.org.uk/images/bg.jpg"
+      }
     }
     </script>
   </head>
